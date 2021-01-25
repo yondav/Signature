@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+/*size of the signature body*/
+            .row-top {
+                width: auto;
+                height: 150px;
+            }
+/*side by side layout*/
+            .column-top {
+                float: left;
+                padding-left: 20px;
+            }
+/*frame size for logo*/
+            .logoframe {
+                height: 150px;
+                width: 150px;
+            }
+/*logo image size and location*/
+            .logo {
+                height: 150px;
+                width: 150px;
+                margin-left: 0px;
+            }
+/*verticle line properties and location*/
+            .verticle-line {
+                width: 1px;
+                height: 150px;
+                margin-left: 0px;
+                background-color: black;
+            }
+/*information width*/
+            table {
+                width: 180px;
+            }
+/*text wrapping property*/
+            span {
+                white-space: nowrap;
+            }
+/*name properties and location*/
+            .name {
+                font-family: 'Muli';
+                font-size: 20px;
+                font-weight: 600;
+                padding-top: 1px;
+                padding-bottom: 0;
+                color: black;
+            }
+/*title properties and location*/
+            .title {
+                font-family: 'Muli';
+                font-size: 15px;
+                font-weight: 333;
+                font-style: italic;
+                padding-top: 0;
+                color: black;
+            }
+/*layout of info*/
+            .stack {
+                height: 100px;
+                font-family: 'Muli';
+                font-size: 12px;
+                padding-top: 8px;
+                color: black;
+            }
+            .infoimg {
+                max-width: 14px;
+            }
+/*space between icons and information*/
+            .info {
+                padding-left: 50px;
+            }
+/*links*/
+            a {
+                text-decoration: none;
+                color: black;
+            }
+/*horizontal pink line properties*/
+            .horizontal {
+                width: 500px;
+                height: 1px;
+                background-color: black;
+                margin-top: 10px;
+            }
+/*disclosure properties and location*/
+            .disclosure {
+                width: 350px;
+                text-align: left;
+                font-family: 'Muli';
+                font-style: italic;
+                font-size: 10px;
+            }
+/*properties and location of apply button*/
+            .applyframe {
+                width: 100px;
+                height: 30px;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                background-color: #d07bb3;
+            }
+/*properties and location of apply link*/
+            .apply {
+                max-width: 60px;
+                margin-top: 3px;
+                margin-left: 22px;
+            }
+/*spacing of social icons*/
+            .socialicons {
+                margin-top: 10px;
+                margin-left: 400px;
+            }
+/*side by side layout for social icons*/
+            .column {
+                padding-left: 5px;
+                float: left;
+            }
+            .socialimg {
+                max-width: 20px;
+            }
+/*for mobile devices*/
+            @media only screen and (max-width: 620px) {
+                .apply, .applyframe, .column, .column-top, .disclosure, .horizontal, .info, .logo, .logoframe, .name, .row-top, .socialicons, .stack, .title, .verticle-line {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row-top">
+            <div class="column-top">
+<!--Code for logo below-->        
+                <div class="logoframe">
+                    <a href="https://www.yupny.com/index.html">
+                        <img class="logo" src="images/logo.png" alt="www.yupny.com">
+                    </a>
+                </div>
+            </div>
+<!--Code for logo over-->
+<!--Code for verticle line below-->
+            <div class="column-top">
+                <div class="verticle-line"></div>
+            </div>
+<!--Code for verticle line over-->
+            <div class="column-top">
+<!--Code for information below-->
+                <table class="nametitle">
+                    <tr>
+<!--Code for name below-->
+                        <td class="name">
+                            <span>Yoni David</span>
+                        </td>
+<!--Code for name over-->
+                    </tr>
+                    <tr>
+<!--Code for title below-->
+                        <td class="title">
+                            <span>Real Estate Salesperson</span>
+                        </td>
+<!--Code for title over-->
+                    </tr>
+<!--Code for stacked info below-->
+                </table>
+                <table class="stack">
+                    <tr class="rowpadding">
+<!--image source for phone icon-->
+                        <td>
+                            <img class="infoimg" src="images/phone.png">
+                        </td>
+                        <td class="info">
+<!--link source for phone number-->
+                            <a href="tel:+1 631 704 3596">
+<!--phone number-->
+                                <span>+1 631 704 3596</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="rowpadding">
+<!--image source for email icon-->
+                        <td>
+                            <img class="infoimg" src="images/email.png">
+                        </td>
+                        <td class="info">
+<!--link source for email-->
+                            <a href="mailto:yoni@yupny.com">
+<!--email address-->
+                                <span>yoni@yupny.com</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="rowpadding">
+<!--image source for address icon-->
+                        <td>
+                            <img class="infoimg" src="images/address.png">
+                        </td>
+                        <td class="info">
+<!--link source for address-->
+                            <a href="https://www.google.com/maps/dir/40.6973176,-73.9270986/yup+realty+llc/@40.6999656,-73.9381538,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89c25d78838124fd:0x84179f4fd305ae5b!2m2!1d-73.934965!2d40.703368">
+<!--address-->
+                                <span>199 Cook St., #203 | BKNY 11206</span></a>
+                        </td>
+                    </tr>
+                </table>
+<!--code for stacked info over-->
+            </div>
+        </div>
+<!--code for horizontal line below-->
+        <div class="horizontal"></div>
+<!--code for horizontal line over-->
+        <div class="column">
+<!--code for disclosure-->
+            <p class="disclosure">The information contained in this message may be CONFIDENTIAL and is for the intended addressee only. Any unauthorized use, dissemination of the information, or copying of this message is prohibited. If you are not the intended addressee, please notify the sender immediately and delete this message.</p>
+        </div>
+<!--code for image links on the right side (social icons and apply button)-->
+        <div class="socialicons">
+<!--code for apply button-->
+            <div class="applyframe">
+<!--link source for application-->
+                <a href="https://www.yupny.com/apply">
+<!--image source for application-->
+                    <img class="apply" src="images/apply.png" alt="leasing application">
+                </a>
+            </div>
+        <div class="column">
+<!--link source for facebook-->
+            <a href="https://www.facebook.com/yupny/">
+<!--image source for facebook link-->
+                <img class="socialimg" src="images/fb.png" alt="facebook"></a>
+        </div>
+        <div class="column">
+<!--link source for instagram-->
+            <a href="https://www.instagram.com/yup_ny/">
+<!--image source for instagram link-->
+                <img class="socialimg" src="images/ig.png" alt="instagram">
+            </a>
+        </div>
+        <div class="column">
+<!--link source for linkedin-->
+            <a href="https://www.linkedin.com/company/yupny">
+<!--image source for linkedin-->
+                <img class="socialimg" src="images/in.png" alt="linkedin">
+            </a>
+        </div>
+        <div class="column">
+<!--link source for youtube-->
+            <a href="https://www.youtube.com/channel/UCeXkhgqBk6jFeSlsaMPvL2w">
+<!--image source for youtube-->
+                <img class="socialimg" src="images/yt.png" alt="youtube">
+            </a>
+        </div>
+    </div>
+    </body>
+</html>
